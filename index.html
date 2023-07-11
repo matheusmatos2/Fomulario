@@ -3,33 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>fomulario</title>
+    <title>Fomulario</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     
 <div class="campo">
-    <h1 id="titulo">cadastro de Devs</h1>
-    <p id="subititulo">Complete suas ionformações </p>
+    <h1 id="titulo">Cadastro de Devs</h1>
     <br>
+    <p id="subititulo"><strong>Complete suas informações: </strong></p>
 
 </div>
 
     <form>
         <fieldset class="grupo">
             <div class="campo">
-                <label for="Nome"><strong>Nome</strong></label>
+                <label for="Nome"><strong>Nome:</strong></label>
                 <input type="text" name="Nome" id="Nome" required>
             </div>
 
             <div class="campo">
-                <label for="sobrenome"><strong>Sobrenome</strong></label>
+                <label for="sobrenome"><strong>Sobrenome:</strong></label>
                 <input type="text" name="sobrenome" id="sobrenome" required>
             </div>
         </fieldset>
 
         <div class="campo">
-            <label for="E-mail"><strong>E-mail</strong></label>
+            <label for="E-mail"><strong>E-mail:</strong></label>
             <input type="email" name="E-mail" id="E-mail" required>
         </div>
         
@@ -76,6 +76,18 @@
         </fieldset>
         <br>
         <div class="campo">
+            <br>
+            <fieldset class="grupo">
+                <div>
+                    <label for="Nacionalidade"><strong>Você é residente do Brasil?</strong></label>
+                    <input type="checkbox" name="opção1" id="opção1">
+                    <label for="opção1" id="check">Sim</label>
+                    <input type="checkbox" name="opção2" id="opção2">
+                    <label for="opção2" id="check">Não</laBel>
+                </div>
+            </fieldset>
+            <br>
+
             <label><strong>Conte um pouco sobre sua experiencia</strong></label>
             <textarea rows="6" style="width: 26em;" id="experiencia" name="experiencia"></textarea>
         </div>
